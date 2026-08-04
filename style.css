@@ -52,6 +52,8 @@ h1{
     color:#fff;
     text-decoration:none;
     transition:.25s;
+    display:block;
+    cursor:pointer;
 }
 
 .card:hover{
