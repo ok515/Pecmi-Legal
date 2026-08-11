@@ -8,6 +8,14 @@
 </head>
 
 <body>
+<script>
+(function () {
+    const lang = navigator.language || navigator.userLanguage || "";
+    if (lang.toLowerCase().startsWith("zh")) {
+        window.location.replace("privacy-zh.html");
+    }
+})();
+</script>
 
 <div class="container">
 
